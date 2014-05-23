@@ -1,0 +1,27 @@
+{
+    "name": "express-statuspage",
+    "description": "Get statuspage.io last incidents intro express",
+    "main": "lib/index.js",
+    "version": "0.0.0",
+    "dependencies": {
+        "q": "1.0.1",
+        "lodash": "2.4.1",
+        "request": "2.36.0"
+    },
+    "devDependencies": {
+        "express": "4.1.2"
+    },
+    "homepage": "https://github.com/SamyPesse/express-statuspage",
+    "author": "Samy Pessé <samypesse@gmail.com>",
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/SamyPesse/express-statuspage/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SamyPesse/express-statuspage.git"
+    },
+    "scripts": {
+        "start": "[ -f .env ] && . ./.env || echo 'No .env'; node examples/app.js"
+    }
+}
