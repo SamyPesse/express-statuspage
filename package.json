@@ -1,6 +1,6 @@
 {
     "name": "express-statuspage",
-    "description": "Get statuspage.io last incidents intro express",
+    "description": "Get statuspage.io last incidents into express",
     "main": "lib/index.js",
     "version": "1.0.0",
     "dependencies": {
